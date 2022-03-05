@@ -10,7 +10,7 @@ const authInterceptor = (config) => {
 }
 
 const httpClient = axios.create({
-    baseURL: "https://api-admin.vanser.org/",
+    baseURL: "https://api-admin.vanser.org/", //update this url wrt env
     timeout: 500000,
     withCredentials: false,
     headers: {
